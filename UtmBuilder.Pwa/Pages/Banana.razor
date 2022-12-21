@@ -1,0 +1,9 @@
+﻿@page "/banana/{Id}"
+
+<h1>Banana @Id</h1>
+
+@code
+{
+    [Parameter]
+    public int Id { get; set; }
+}
